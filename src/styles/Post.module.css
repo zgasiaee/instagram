@@ -1,0 +1,17 @@
+.container{
+    margin-top: 30px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.image{
+    width: 100%;
+    display: block;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        border: none;
+        background-color: #fafafa;
+    }
+}

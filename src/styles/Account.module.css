@@ -1,0 +1,32 @@
+.line{
+    display: flex;
+    align-items: center;
+    margin: 10px 15px;
+    position: relative;
+}
+.text{
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.username{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.username:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.name{
+    color: #8e8e8e;
+    margin-top: 4px;
+}
+.link{
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 0;
+}
+.line span , .line p {
+    font-size: 0.8rem;
+}

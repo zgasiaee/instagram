@@ -1,0 +1,14 @@
+.storyBorder{
+    padding: 2px;
+    background: linear-gradient(200deg,#da3394 25% , #e03c67 50% , #f3753b 75% , #f99b4a 100%);
+    border-radius: 50%;
+    width: fit-content;
+}
+.profile{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+}
+.profile:hover{
+    cursor: pointer;
+}
