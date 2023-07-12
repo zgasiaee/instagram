@@ -14,8 +14,6 @@ import { ReactComponent as LineDots } from '../images/lineDots.svg'
 
 const Post = () => {
 
-  const imageRandom = `https://picsum.photos/800?random=${Math.floor(Math.random() * 50) + 1}`
-
   return (
     <div className={styles.container}>
       <Account
