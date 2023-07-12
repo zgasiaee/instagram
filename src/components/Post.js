@@ -25,7 +25,7 @@ const Post = () => {
         size="small"
         story={faker.datatype.boolean()}
       />
-      <Image imageRandom={imageRandom} />
+      <Image imageRandom={faker.image.abstract(1234, 1200, true)} />
       <Caption />
     </div>
   )
